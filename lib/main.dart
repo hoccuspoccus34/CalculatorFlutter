@@ -43,11 +43,13 @@ class _MyHomePageState extends State<MyHomePage> {
             style: TextStyle(
                 fontSize: 25,
                 color: txtcolor,
+
             ),
           ),
           style: ElevatedButton.styleFrom(
             backgroundColor: btncolor,
-            shape: CircleBorder(),
+            shape: StadiumBorder(),
+
         ),
         ),
       );
@@ -193,14 +195,11 @@ class _MyHomePageState extends State<MyHomePage> {
                 Padding(padding: EdgeInsets.only(bottom: 80),),
                 SizedBox(
                   height: 70,
-                  width: 70,
+                  width: 160,
                   child: calcbutton('0', Colors.grey, Colors.white, 17),
+
                 ),
-                SizedBox(
-                  height: 70,
-                  width: 70,
-                  child: calcbutton(',', Colors.grey, Colors.white, 18),
-                ),
+
                 SizedBox(
                   height: 70,
                   width: 70,
